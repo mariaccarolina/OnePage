@@ -4,7 +4,7 @@ import styled from "styled-components";
 export const Card = styled.div`
 width: 30%;
 box-shadow: 0px 0px 20px 0px #0000001A;
-@media screen and (max-width:700px){
+@media screen and (max-width:900px){
   width: 90%;
   align-items: center;
   margin: 20px;
@@ -50,7 +50,7 @@ height: 50vw;
 align-items: center;
 justify-content: space-evenly;
 
-@media screen and (max-width:700px){
+@media screen and (max-width:900px){
   display: grid;
   height: auto;
 }
@@ -60,8 +60,7 @@ display: flex;
 padding-bottom: 50px;
 align-items: center;
 justify-content: space-evenly;
-@media screen and (max-width:700px){
+@media screen and (max-width:900px){
   display: grid;
- 
 }
 `

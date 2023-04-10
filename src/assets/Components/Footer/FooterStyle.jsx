@@ -14,7 +14,7 @@ padding-top: 40px;
 `
 export const Formulario = styled.form`
 width: 40%;
-@media screen and (max-width:700px){
+@media screen and (max-width:900px){
     width: 90%;
 }
 `
@@ -48,7 +48,7 @@ padding: 13px;
 font-size: 20px;
 margin: 20px;
 border-radius: 6px;
-@media screen and (max-width:700px){
+@media screen and (max-width:900px){
     width: 90%;
 }
 `

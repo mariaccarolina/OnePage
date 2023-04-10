@@ -5,13 +5,13 @@ background-color: #D7D4FF;
 display: flex;
 align-items: center;
 justify-content: space-around;
-@media screen and (max-width:700px){
+@media screen and (max-width:900px){
     flex-direction: column;
 }
 `
 export const Info = styled.div`
 width: 30%;
-@media screen and (max-width:700px){
+@media screen and (max-width:900px){
     width: 80%;
     padding-top: 50px;
 }
@@ -23,7 +23,7 @@ width: 100%;
 export const Figure = styled.figure`
 padding: 40px;
 width: 500px;
-@media screen and (max-width:700px){
+@media screen and (max-width:900px){
     padding: 0;
     width: 80%;
     margin: 70px;
